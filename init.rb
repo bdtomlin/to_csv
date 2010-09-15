@@ -1,2 +1,2 @@
-require 'fastercsv'
+require 'csv'
 require 'to_csv'
