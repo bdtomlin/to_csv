@@ -2,7 +2,7 @@ begin
   require 'rubygems'
   require 'test/unit'
   require 'csv'
-  require 'active_support'
+  require 'active_support/inflector'
   require File.dirname(__FILE__) + '/../lib/to_csv'
 rescue LoadError
   puts 'to_csv tests rely on csv, and active_support'
