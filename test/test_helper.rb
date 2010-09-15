@@ -1,11 +1,11 @@
 begin
   require 'rubygems'
   require 'test/unit'
-  require 'fastercsv'
+  require 'csv'
   require 'active_support'
   require File.dirname(__FILE__) + '/../lib/to_csv'
 rescue LoadError
-  puts 'to_csv tests rely on fastercsv, and active_support'
+  puts 'to_csv tests rely on csv, and active_support'
 end
 
 class User
